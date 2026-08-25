@@ -1,0 +1,61 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04141a"/>
+      <stop offset="55%" stop-color="#062a2b"/>
+      <stop offset="100%" stop-color="#04141a"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="#000000"/>
+
+  <!-- hexagon frame -->
+  <polygon points="100,20 1100,20 1180,160 1100,300 100,300 20,160"
+    fill="url(#bg)" stroke="#2de1c9" stroke-width="4" filter="url(#glow)"/>
+  <polygon points="100,20 1100,20 1180,160 1100,300 100,300 20,160"
+    fill="none" stroke="#2de1c9" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- corner tech accents -->
+  <g stroke="#2de1c9" stroke-width="6" opacity="0.85">
+    <line x1="70" y1="60" x2="150" y2="60"/>
+    <line x1="70" y1="80" x2="120" y2="80"/>
+    <line x1="1050" y1="240" x2="1130" y2="240"/>
+    <line x1="1080" y1="260" x2="1130" y2="260"/>
+  </g>
+
+  <!-- circuit dots -->
+  <g fill="#2de1c9" opacity="0.5">
+    <circle cx="150" cy="250" r="3"/>
+    <circle cx="170" cy="250" r="3"/>
+    <circle cx="1050" cy="70" r="3"/>
+    <circle cx="1030" cy="70" r="3"/>
+  </g>
+
+  <!-- glow backdrop text -->
+  <text x="600" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900"
+    font-size="54" fill="#2de1c9" opacity="0.5" filter="url(#softGlow)">SHUBHAM KUMAR TRIPATHI</text>
+
+  <!-- main text -->
+  <text x="600" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900"
+    font-size="54" fill="#eafffb" filter="url(#glow)">SHUBHAM KUMAR TRIPATHI</text>
+
+  <text x="600" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700"
+    font-size="24" letter-spacing="4" fill="#2de1c9" filter="url(#glow)">CSE (DATA SCIENCE) STUDENT</text>
+
+  <text x="600" y="245" text-anchor="middle" font-family="Consolas, monospace"
+    font-size="16" letter-spacing="2" fill="#5be8d6" opacity="0.8">PYTHON // REACT // NODE.JS // AI &amp; AUDIO SYSTEMS</text>
+</svg>

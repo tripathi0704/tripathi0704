@@ -1,0 +1,32 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04141a"/>
+      <stop offset="55%" stop-color="#062a2b"/>
+      <stop offset="100%" stop-color="#04141a"/>
+    </linearGradient>
+    <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="260" fill="#000000"/>
+
+  <polygon points="90,15 910,15 985,130 910,245 90,245 15,130"
+    fill="url(#bg2)" stroke="#2de1c9" stroke-width="4" filter="url(#glow2)"/>
+
+  <g stroke="#2de1c9" stroke-width="5" opacity="0.85">
+    <line x1="60" y1="45" x2="130" y2="45"/>
+    <line x1="870" y1="200" x2="940" y2="200"/>
+  </g>
+
+  <text x="500" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900"
+    font-size="46" fill="#eafffb" filter="url(#glow2)">AUDIO ARTIFACT</text>
+
+  <text x="500" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700"
+    font-size="19" letter-spacing="3" fill="#2de1c9" filter="url(#glow2)">DEEPFAKE AUDIO DETECTOR</text>
+</svg>
