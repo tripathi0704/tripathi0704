@@ -29,12 +29,12 @@ const shubham = {
   stack: {
     languages: ["Python", "C", "C++", "Java", "JavaScript"],
     frontend: ["HTML", "CSS", "React", "UI/UX Design"],
-    backend: ["Node.js"],
+    backend: ["Node.js", "FastAPI"],
     designTools: ["Figma", "Canva"],
-    hosting: ["Vercel", "Render", "Netlify", "Railway"],
+    hosting: ["Vercel", "Render", "Netlify", "Railway", "Streamlit Cloud"],
     devTools: ["Git", "GitHub", "Markdown"],
   },
-  launchedProjects: ["AUDIOARTIFACT — Deepfake Audio Detector"],
+  launchedProjects: ["AUDIOARTIFACT — Timeline-Based Deepfake Audio Localizer (Live)"],
   certifications: [],
   status: "Building AI-powered tools & sharpening full-stack skills",
   openTo: "Remote opportunities",
@@ -43,23 +43,36 @@ const shubham = {
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Project: AudioArtifact v2.0
 
-Deepfake audio detector built to identify AI-manipulated voice recordings.
+> **Forensic-grade timeline-based deepfake audio localizer** built to identify and timestamp AI-generated, synthetic, and voice-cloned speech segments using Microsoft WavLM (768-dim deep acoustic embeddings) and calibrated XGBoost continuous probability modeling.
 
 <div align="center">
   <img src="./assets/audioartifact-banner.svg" width="85%"/>
   <br/><br/>
+  <a href="https://audioartifact.streamlit.app" target="_blank">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" height="34" />
+  </a>
+  &nbsp;&nbsp;
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=tripathi0704&repo=AUDIOARTIFACT&theme=nord&border_color=2de1c9&title_color=2de1c9&text_color=c9d1d9&bg_color=0d1117" />
 </div>
 
+<br/>
+
 | Layer | Technology |
 |---|---|
-| Core | Python |
-| Domain | Audio / Deepfake Detection |
-| Version Control | Git & GitHub |
+| **AI / SOTA Model** | Microsoft WavLM (768-dim deep acoustic embeddings), XGBoost Classifier |
+| **Audio Processing** | Silero Voice Activity Detection (VAD), Librosa, 50% Overlapping Sliding Windows |
+| **Frontend & Visualization** | Streamlit, Plotly (Continuous Risk Curve & 3D Mel-Spectrogram) |
+| **Backend API** | FastAPI, Uvicorn (Asynchronous REST API) |
+| **Persistence** | SQLite History Tracking |
+| **Live Deployment** | Streamlit Community Cloud |
 
-🔗 [Code](https://github.com/tripathi0704/AUDIOARTIFACT)
+<div align="center">
+
+🌐 **[Try Live Web App](https://audioartifact.streamlit.app)** &nbsp;•&nbsp; 📂 **[GitHub Repository](https://github.com/tripathi0704/AUDIOARTIFACT)**
+
+</div>
 
 ---
 
@@ -75,7 +88,7 @@ Deepfake audio detector built to identify AI-manipulated voice recordings.
 
 **Backend**
 <br/>
-<img src="https://skillicons.dev/icons?i=nodejs" />
+<img src="https://skillicons.dev/icons?i=nodejs,fastapi" />
 
 **Design Tools**
 <br/>
