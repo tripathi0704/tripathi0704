@@ -2,7 +2,7 @@
 
   <!-- Header Banner -->
   <a href="https://github.com/tripathi0704">
-    <img src="https://raw.githubusercontent.com/tripathi0704/tripathi0704/main/assets/header-banner.svg" alt="Shubham Kumar Tripathi Header Banner" width="100%"/>
+    <img src="https://raw.githubusercontent.com/tripathi0704/tripathi0704/main/assets/header-banner.svg?v=2" alt="Shubham Kumar Tripathi Header Banner" width="100%"/>
   </a>
 
   <br/><br/>
@@ -74,7 +74,7 @@ const shubham: DeveloperProfile = {
 
 <div align="center">
   <a href="https://audioartifact.streamlit.app" target="_blank">
-    <img src="https://raw.githubusercontent.com/tripathi0704/tripathi0704/main/assets/audioartifact-banner.svg" width="95%" alt="AudioArtifact v2.0 Showcase Banner"/>
+    <img src="https://raw.githubusercontent.com/tripathi0704/tripathi0704/main/assets/audioartifact-banner.svg?v=2" width="95%" alt="AudioArtifact v2.0 Showcase Banner"/>
   </a>
 
   <br/><br/>
