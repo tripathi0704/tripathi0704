@@ -2,7 +2,7 @@
 
   <!-- Header Banner -->
   <a href="https://github.com/tripathi0704">
-    <img src="./assets/header-banner.svg" alt="Shubham Kumar Tripathi Header Banner" width="100%"/>
+    <img src="https://raw.githubusercontent.com/tripathi0704/tripathi0704/main/assets/header-banner.svg" alt="Shubham Kumar Tripathi Header Banner" width="100%"/>
   </a>
 
   <br/><br/>
@@ -74,7 +74,7 @@ const shubham: DeveloperProfile = {
 
 <div align="center">
   <a href="https://audioartifact.streamlit.app" target="_blank">
-    <img src="./assets/audioartifact-banner.svg" width="95%" alt="AudioArtifact v2.0 Showcase Banner"/>
+    <img src="https://raw.githubusercontent.com/tripathi0704/tripathi0704/main/assets/audioartifact-banner.svg" width="95%" alt="AudioArtifact v2.0 Showcase Banner"/>
   </a>
 
   <br/><br/>
@@ -163,12 +163,12 @@ const shubham: DeveloperProfile = {
     <tr>
       <td width="52%" align="center">
         <a href="https://github.com/tripathi0704">
-          <img src="https://github-readme-stats.vercel.app/api?username=tripathi0704&show_icons=true&theme=nord&border_color=2de1c9&title_color=2de1c9&icon_color=2de1c9&text_color=c9d1d9&bg_color=0d1117&hide_border=false" width="100%" alt="GitHub Stats" />
+          <img src="https://github-readme-stats-fast.vercel.app/api?username=tripathi0704&show_icons=true&theme=nord&border_color=2de1c9&title_color=2de1c9&icon_color=2de1c9&text_color=c9d1d9&bg_color=0d1117&hide_border=false" width="100%" alt="GitHub Stats" />
         </a>
       </td>
       <td width="48%" align="center">
         <a href="https://github.com/tripathi0704">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tripathi0704&layout=compact&theme=nord&border_color=2de1c9&title_color=2de1c9&text_color=c9d1d9&bg_color=0d1117&hide_border=false" width="100%" alt="Top Languages" />
+          <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=tripathi0704&layout=compact&theme=nord&border_color=2de1c9&title_color=2de1c9&text_color=c9d1d9&bg_color=0d1117&hide_border=false" width="100%" alt="Top Languages" />
         </a>
       </td>
     </tr>
