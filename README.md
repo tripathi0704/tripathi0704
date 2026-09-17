@@ -94,16 +94,7 @@ const shubham: DeveloperProfile = {
 
 > **AudioArtifact** is an enterprise-grade forensic system engineered to detect, isolate, and timestamp AI-generated synthetic speech and voice-cloned attacks in raw audio. Unlike generic black-box classifiers, AudioArtifact produces a continuous, calibrated risk probability curve along the audio timeline so analysts can pinpoint the exact seconds where synthetic manipulation occurred.
 
-### 🏛️ Architecture & Forensic Engineering Stack
-
-| Architectural Layer | Implementation & Technologies Used |
-| :--- | :--- |
-| **Deep Acoustic Embeddings** | **Microsoft WavLM Base+** extracting 768-dimensional deep acoustic representations per frame. |
-| **Temporal Segmentation** | **Silero Voice Activity Detection (VAD)** + 50% overlapping 2.0-second sliding windows. |
-| **Biophysical & DSP Metrics** | High-frequency vocoder spectral rolloff, Zero-Crossing Rate (ZCR), dynamic range, vocal pitch inflections. |
-| **Risk Modeling** | Calibrated **XGBoost Classifier** trained to output smooth, continuous probability curves across timelines. |
-| **Integrity & Custody** | Cryptographic SHA-256 and MD5 chain-of-custody checksums with printable ISO-standard Forensic Audit Certificates. |
-| **Live Web App & UI** | **Streamlit Community Cloud**, **Plotly** (Continuous Risk Curve & 3D Mel-Spectrogram), **FastAPI** backend. |
+<br/>
 
 <div align="center">
 
@@ -209,5 +200,5 @@ const shubham: DeveloperProfile = {
 
 <!-- Animated Footer Wave -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:04141a,50:062a2b,100:04141a&height=140&section=footer&text=Innovating%20At%20The%20Intersection%20Of%20AI%20%26%20Audio&fontColor=2de1c9&fontSize=20&animation=twinkling" width="100%" alt="Footer Wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:04141a,50:062a2b,100:04141a&height=140&section=footer&text=Innovating%20At%20The%20Intersection%20Of%20AI%20and%20Audio&fontColor=2de1c9&fontSize=20&animation=twinkling" width="100%" alt="Footer Wave" />
 </div>
