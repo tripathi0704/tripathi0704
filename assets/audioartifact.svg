@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080E17" />
+      <stop offset="60%" stop-color="#091822" />
+      <stop offset="100%" stop-color="#062228" />
+    </linearGradient>
+
+    <!-- Glowing Teal Gradient -->
+    <linearGradient id="neon-teal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2DE1C9" />
+      <stop offset="100%" stop-color="#00F5D4" />
+    </linearGradient>
+
+    <!-- Synthetic Red Alert Gradient -->
+    <linearGradient id="danger-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF3366" />
+      <stop offset="100%" stop-color="#FF6B6B" />
+    </linearGradient>
+
+    <!-- Real Speech Green Gradient -->
+    <linearGradient id="safe-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="card-glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Subtle Dot Grid -->
+    <pattern id="dot-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#2DE1C9" fill-opacity="0.1" />
+    </pattern>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="880" height="230" rx="14" fill="url(#card-bg)" />
+  <rect width="880" height="230" rx="14" fill="url(#dot-grid)" />
+  <rect width="878" height="228" x="1" y="1" rx="13" fill="none" stroke="#2DE1C9" stroke-width="1.2" stroke-opacity="0.35" />
+
+  <!-- Corner Glow Accent -->
+  <circle cx="840" cy="30" r="80" fill="#2DE1C9" fill-opacity="0.15" filter="url(#card-glow)" />
+
+  <!-- Left Header Branding -->
+  <g transform="translate(36, 32)">
+    <!-- Version Pill -->
+    <rect x="0" y="0" width="138" height="22" rx="11" fill="#2DE1C9" fill-opacity="0.15" stroke="#2DE1C9" stroke-width="1" stroke-opacity="0.5" />
+    <circle cx="10" cy="11" r="4" fill="#2DE1C9" />
+    <text x="22" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#2DE1C9" letter-spacing="1">FORENSIC SUITE</text>
+
+    <!-- Live Badge -->
+    <rect x="146" y="0" width="105" height="22" rx="11" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-width="1" stroke-opacity="0.5" />
+    <circle cx="156" cy="11" r="3.5" fill="#10B981" />
+    <text x="166" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#10B981" letter-spacing="0.8">ONLINE v2.0</text>
+
+    <!-- Main Title -->
+    <text x="0" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="26" fill="#FFFFFF" letter-spacing="0.5">AudioArtifact <tspan fill="#2DE1C9">v2.0</tspan></text>
+    <text x="0" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="13" fill="#2DE1C9" letter-spacing="1.5">TIMELINE-BASED DEEPFAKE AUDIO LOCALIZER</text>
+
+    <!-- Key specs description -->
+    <text x="0" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#CBD5E1">
+      Detects synthetic speech segments using 768-dim WavLM embeddings
+    </text>
+    <text x="0" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" fill="#94A3B8">
+      Zero-crossing analysis, acoustic rolloff, and calibrated XGBoost risk modeling.
+    </text>
+
+    <!-- Architecture Tags -->
+    <g transform="translate(0, 138)">
+      <rect x="0" y="0" width="105" height="22" rx="5" fill="#142130" stroke="#2DE1C9" stroke-width="0.8" stroke-opacity="0.4" />
+      <text x="8" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#2DE1C9">🎙️ WavLM 768-D</text>
+
+      <rect x="112" y="0" width="94" height="22" rx="5" fill="#142130" stroke="#2DE1C9" stroke-width="0.8" stroke-opacity="0.4" />
+      <text x="120" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#2DE1C9">⚡ XGBoost ML</text>
+
+      <rect x="214" y="0" width="92" height="22" rx="5" fill="#142130" stroke="#2DE1C9" stroke-width="0.8" stroke-opacity="0.4" />
+      <text x="222" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#2DE1C9">🎧 Silero VAD</text>
+
+      <rect x="314" y="0" width="95" height="22" rx="5" fill="#142130" stroke="#2DE1C9" stroke-width="0.8" stroke-opacity="0.4" />
+      <text x="322" y="15" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" fill="#2DE1C9">🌐 Streamlit App</text>
+    </g>
+  </g>
+
+  <!-- Right Visual: Forensic Timeline Simulation Card -->
+  <g transform="translate(485, 26)">
+    <!-- Container Card -->
+    <rect x="0" y="0" width="365" height="178" rx="10" fill="#0C1522" stroke="#2DE1C9" stroke-width="1" stroke-opacity="0.3" />
+
+    <!-- Terminal Header Bar -->
+    <path d="M 0 10 Q 0 0 10 0 L 355 0 Q 365 0 365 10 L 365 28 L 0 28 Z" fill="#111C2B" />
+    <circle cx="14" cy="14" r="4" fill="#FF5F56" />
+    <circle cx="26" cy="14" r="4" fill="#FFBD2E" />
+    <circle cx="38" cy="14" r="4" fill="#27C93F" />
+    <text x="56" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#94A3B8">timeline_forensics_scan.wav</text>
+    <text x="290" y="18" font-family="Consolas, Monaco, monospace" font-size="11" fill="#2DE1C9" font-weight="700">00:14.2s</text>
+
+    <!-- Spectrogram / Waveform Segment Bar -->
+    <g transform="translate(18, 42)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#94A3B8" letter-spacing="0.5">ACOUSTIC SEGMENT LOCALIZATION</text>
+      
+      <!-- Timeline Track Container -->
+      <rect x="0" y="8" width="328" height="34" rx="6" fill="#070D16" stroke="#1E293B" stroke-width="1" />
+
+      <!-- Segment 1: REAL SPEECH (0.0s - 3.2s) -->
+      <rect x="2" y="10" width="85" height="30" rx="4" fill="url(#safe-grad)" fill-opacity="0.25" stroke="#10B981" stroke-width="1" />
+      <text x="14" y="29" font-family="Consolas, Monaco, monospace" fill="#34D399" font-weight="700" font-size="10">REAL [0.0s]</text>
+
+      <!-- Segment 2: DEEPFAKE DETECTED (3.2s - 8.4s) -->
+      <rect x="91" y="10" width="146" height="30" rx="4" fill="url(#danger-grad)" fill-opacity="0.3" stroke="#FF3366" stroke-width="1.2" />
+      <text x="105" y="29" font-family="Consolas, Monaco, monospace" fill="#FF4D79" font-weight="800" font-size="10">⚠ SYNTHETIC (94.2%)</text>
+
+      <!-- Segment 3: REAL SPEECH (8.4s - 14.2s) -->
+      <rect x="241" y="10" width="85" height="30" rx="4" fill="url(#safe-grad)" fill-opacity="0.25" stroke="#10B981" stroke-width="1" />
+      <text x="253" y="29" font-family="Consolas, Monaco, monospace" fill="#34D399" font-weight="700" font-size="10">REAL [8.4s]</text>
+    </g>
+
+    <!-- Calibrated Risk Probability Curve (Micro-Chart) -->
+    <g transform="translate(18, 102)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#94A3B8" letter-spacing="0.5">CONTINUOUS PROBABILITY CURVE (CALIBRATED)</text>
+      
+      <!-- Mini Chart BG -->
+      <rect x="0" y="8" width="328" height="36" rx="4" fill="#080F1A" stroke="#1E293B" stroke-width="0.8" />
+      
+      <!-- Threshold Dashed Line (50%) -->
+      <line x1="0" y1="26" x2="328" y2="26" stroke="#64748B" stroke-width="0.75" stroke-dasharray="3,3" />
+
+      <!-- Risk Probability Line Path -->
+      <path d="M 10 36 
+               L 40 35 
+               L 80 34 
+               L 92 18 
+               L 110 12 
+               L 160 11 
+               L 220 13 
+               L 236 33 
+               L 280 35 
+               L 318 36" 
+            fill="none" stroke="#FF3366" stroke-width="2" stroke-linecap="round" />
+
+      <!-- Peak Point Indicator -->
+      <circle cx="160" cy="11" r="3.5" fill="#FF3366" />
+      <circle cx="160" cy="11" r="7" fill="none" stroke="#FF3366" stroke-width="1" stroke-opacity="0.5" />
+    </g>
+
+    <!-- Status Ticker Footer inside Card -->
+    <g transform="translate(18, 158)">
+      <text x="0" y="9" font-family="Consolas, Monaco, monospace" fill="#64748B" font-size="9.5">SHA-256 Custody Verified &#8226; ISO Forensic Certificate Exported</text>
+    </g>
+  </g>
+</svg>
