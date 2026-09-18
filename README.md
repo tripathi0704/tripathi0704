@@ -9,7 +9,7 @@
 
   <!-- Dynamic Typing Subtitle -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=800&color=2DE1C9&center=true&vCenter=true&width=650&lines=Audio+Forensics+%26+Deepfake+Detection+Specialist;Creator+of+AudioArtifact+v2.0+(WavLM+%2B+XGBoost);CSE+(Data+Science)+%7C+Full-Stack+Developer;Engineering+Scalable+AI+Applications+in+Python+%26+FastAPI" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=800&color=2DE1C9&center=true&vCenter=true&width=800&lines=Audio+Forensics+%26+Deepfake+Detection+Specialist;Creator+of+AudioArtifact+v2.0+(WavLM+%2B+XGBoost);CSE+(Data+Science)+%7C+Full-Stack+Developer;Engineering+Scalable+AI+Applications+in+Python+%26+FastAPI" alt="Typing SVG" />
   </a>
 
   <br/><br/>
