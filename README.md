@@ -8,13 +8,6 @@
 
 <div align="center">
 
-  <!-- Header Banner -->
-  <a href="https://github.com/tripathi0704">
-    <img src="https://raw.githubusercontent.com/tripathi0704/tripathi0704/main/assets/profile-banner.svg" alt="Shubham Kumar Tripathi Header Banner" width="100%"/>
-  </a>
-
-  <br/><br/>
-
   <!-- Dynamic Typing Subtitle -->
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=800&color=2DE1C9&center=true&vCenter=true&width=800&lines=Audio+Forensics+%26+Deepfake+Detection+Specialist;Creator+of+AudioArtifact+v2.0+(WavLM+%2B+XGBoost);CSE+(Data+Science)+%7C+Full-Stack+Developer;Engineering+Scalable+AI+Applications+in+Python+%26+FastAPI" alt="Typing SVG" />
@@ -42,39 +35,6 @@
   </p>
 
 </div>
-
----
-
-## 👨‍💻 About Me
-
-```ts
-const shubham: DeveloperProfile = {
-  name: "Shubham Kumar Tripathi",
-  role: "CSE (Data Science) Student & AI Developer",
-  focus: [
-    "Audio Forensics & Deepfake Voice Detection",
-    "Acoustic Embeddings (Microsoft WavLM)",
-    "Applied Machine Learning & Continuous Probability Modeling",
-    "Full-Stack Web Development & High-Performance APIs",
-  ],
-  flagshipProject: "AudioArtifact v2.0 (Forensic-grade timeline audio localizer)",
-  coreStack: {
-    languages: ["Python", "C", "C++", "Java", "JavaScript", "TypeScript"],
-    ai_dsp: ["Microsoft WavLM", "XGBoost", "PyTorch", "Librosa", "Silero VAD", "Scikit-Learn"],
-    backend: ["FastAPI", "Uvicorn", "Node.js", "REST APIs", "SQLite"],
-    frontend: ["React", "Streamlit", "Plotly", "Tailwind CSS", "HTML5/CSS3"],
-    cloud_dev: ["Vercel", "Streamlit Cloud", "Render", "Git", "GitHub", "Figma"],
-  },
-  mission: "Building reliable, interpretable AI tools that safeguard digital authenticity.",
-  availability: "Open to Internships, Freelance AI Projects & Full-Stack Opportunities",
-};
-```
-
-### ⚡ Quick Highlights
-- 🔬 **Research & Applied AI:** Developed **AudioArtifact v2.0**, an end-to-end forensic audio tool utilizing **Microsoft WavLM 768-dim embeddings** and **calibrated XGBoost** to identify and localize deepfake audio segments with second-by-second timestamps.
-- 🛠️ **Engineering Mindset:** Proficient in designing both lightweight micro-services (FastAPI REST APIs) and interactive visualization platforms (Streamlit + Plotly 3D Spectrograms).
-- 🎓 **Academics:** Pursuing B.Tech in Computer Science and Engineering with specialization in **Data Science**.
-- 💬 **Ask me about:** Audio Signal Processing, Vocoder Cutoff Analysis, Voice Activity Detection (VAD), ML classification pipelines, and Modern Web architectures.
 
 ---
 
